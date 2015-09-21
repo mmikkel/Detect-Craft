@@ -23,43 +23,63 @@ $isMobile = craft()->detect->isMobile();
 ## Methods/usage
 
 ### Device detection
-```isMobile```  
-```isTablet```
-```isPhone```  
+```twig
+isMobile
+```
+_Detects all mobile devices, both phones and tablets_  
+
+```twig
+isTablet  
+isPhone
+```
 
 ### Mobile OS detection
-```isiOS```  
-```isAndroidOS```  
-```isBlackBerryOS```  
-```isPalmOS```  
-```isSymbianOS```  
-```isWindowsMobileOS```  
-```isWindowsPhoneOS```
+```twig
+isiOS  
+isAndroidOS  
+isBlackBerryOS  
+isPalmOS  
+isSymbianOS  
+isWindowsMobileOS   
+isWindowsPhoneOS  
+```
 
 ### Other methods
 
-```is(key)```  
+```twig
+is(key)
+```
 _Test for anything, e.g. ```is('iphone')```_  
 
-```match(pattern)```  
+```twig
+match(pattern)
+```
 _Test using regular expressions_  
 
-```version(component)```  
+```twig
+version(component)
+```
 _Get the version of a component, e.g. ```version('iPhone')```_  
 
-```mobileGrade```  
+```twig
+mobileGrade
+```
 _Get browser grade (e.g. "A")_  
 
-```getScriptVersion```  
-_Get the MobileDetect library's version_  
+```twig
+getScriptVersion
+```
+_Prints the MobileDetect library's version_  
 
-```getUserAgent()```  
-```setUserAgent(userAgent)```  
-```getMobileHeaders()```  
-```getHttpHeaders()```  
-```setHttpHeaders(httpHeaders)```  
-```getCfHeaders()```  
-```setCfHeaders(cfHeaders)```  
+```twig
+getUserAgent  
+setUserAgent(userAgent)  
+getMobileHeaders  
+getHttpHeaders    
+setHttpHeaders(httpHeaders)  
+getCfHeaders  
+setCfHeaders(cfHeaders)  
+```
 
 ## Changelog
 
