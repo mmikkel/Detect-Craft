@@ -24,9 +24,7 @@ $isMobile = craft()->detect->isMobile();
 
 ### Device detection
 ```isMobile```  
-_Note: Returns true for any mobile device (both phones and tablets)_    
-
-```isTablet```   
+```isTablet```
 ```isPhone```  
 
 ### Mobile OS detection
@@ -36,7 +34,7 @@ _Note: Returns true for any mobile device (both phones and tablets)_
 ```isPalmOS```  
 ```isSymbianOS```  
 ```isWindowsMobileOS```  
-```isWindowsPhoneOS``` 
+```isWindowsPhoneOS```
 
 ### Other methods
 
@@ -70,9 +68,8 @@ _Initial release_
 
 ## Disclaimer
 
-This Craft CMS plugin is free, and you can do whatever you want with it. _The author takes no responsibility for any data loss or other issues resulting from the use of this plugin._   
+This Craft CMS plugin is free, and you can do whatever you want with it. _The author takes no responsibility for any data loss or other issues resulting from the use of this plugin._
 
 Kindly report any issues [here](https://github.com/mmikkel/Detect-Craft/issues), but please note that no promises are made regarding response time, bug fixes or feature request implementations.
 
 **Pull requests are very welcome!**
-
