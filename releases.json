@@ -1,0 +1,11 @@
+[
+  {
+    "version": "1.0.1",
+    "downloadUrl": "https://github.com/mmikkel/Detect-Craft/archive/master.zip",
+    "date": "2016-06-06T10:00:00-08:00",
+    "notes": [
+      "[Improved] Updated Mobile_Detect to latest version",
+      "[Improved] Added Craft 2.5 features and schema version",
+    ]
+  }
+]
