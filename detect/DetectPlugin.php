@@ -11,14 +11,22 @@
  * @link        https://github.com/mmikkel/Detect-Craft
  */
 
+/*
+*   Props to artworkbean from the Noun Project for the icon
+*
+*/
+
 class DetectPlugin extends BasePlugin
 {
 
-    protected   $_version = '1.0',
+    protected   $_version = '1.0.1',
+                $_schemaVersion = '1.0.0',
                 $_developer = 'Mats Mikkel Rummelhoff',
                 $_developerUrl = 'http://mmikkel.no',
                 $_pluginName = 'Detect',
                 $_pluginUrl = 'https://github.com/mmikkel/Detect-Craft',
+                $_releaseFeedUrl = 'https://raw.githubusercontent.com/mmikkel/Detect-Craft/master/releases.json',
+                $_documentationUrl = 'https://github.com/mmikkel/Detect-Craft/blob/master/README.md',
                 $_minVersion = '2.3';
 
     public function getName()
@@ -29,6 +37,11 @@ class DetectPlugin extends BasePlugin
     public function getVersion()
     {
         return $this->_version;
+    }
+
+    public function getSchemaVersion()
+    {
+        return $this->_schemaVersion;
     }
 
     public function getDeveloper()
@@ -44,6 +57,16 @@ class DetectPlugin extends BasePlugin
     public function getPluginUrl()
     {
         return $this->_pluginUrl;
+    }
+
+    public function getReleaseFeedUrl()
+    {
+        return $this->_releaseFeedUrl;
+    }
+
+    public function getDocumentationUrl()
+    {
+        return $this->_documentationUrl;
     }
 
 }

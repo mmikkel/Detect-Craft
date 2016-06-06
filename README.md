@@ -1,7 +1,7 @@
-# Detect plugin for Craft CMS
+# Detect plugin v. 1.0.1 for Craft CMS
 
 
-**_Detect_ is a fairly complete wrapper for the [Mobile_Detect](http://mobiledetect.net/) library by [@serbanghita](https://github.com/serbanghita).**  
+**_Detect_ is a fairly complete wrapper for the [Mobile_Detect](http://mobiledetect.net/) library by [@serbanghita](https://github.com/serbanghita).**
 
 The plugin exposes most of Mobile_Detect's methods, and can be used in your Twig:
 
@@ -23,45 +23,50 @@ $isMobile = craft()->detect->isMobile();
 ## Methods/usage
 
 ### Device detection
-```isMobile```  
+```isMobile```
 ```isTablet```
-```isPhone```  
+```isPhone```
 
 ### Mobile OS detection
-```isiOS```  
-```isAndroidOS```  
-```isBlackBerryOS```  
-```isPalmOS```  
-```isSymbianOS```  
-```isWindowsMobileOS```  
+```isiOS```
+```isAndroidOS```
+```isBlackBerryOS```
+```isPalmOS```
+```isSymbianOS```
+```isWindowsMobileOS```
 ```isWindowsPhoneOS```
 
 ### Other methods
 
-```is(key)```  
-_Test for anything, e.g. ```is('iphone')```_  
+```is(key)```
+_Test for anything, e.g. ```is('iphone')```_
 
-```match(pattern)```  
-_Test using regular expressions_  
+```match(pattern)```
+_Test using regular expressions_
 
-```version(component)```  
-_Get the version of a component, e.g. ```version('iPhone')```_  
+```version(component)```
+_Get the version of a component, e.g. ```version('iPhone')```_
 
-```mobileGrade```  
-_Get browser grade (e.g. "A")_  
+```mobileGrade```
+_Get browser grade (e.g. "A")_
 
-```getScriptVersion```  
-_Get the MobileDetect library's version_  
+```getScriptVersion```
+_Get the MobileDetect library's version_
 
-```getUserAgent()```  
-```setUserAgent(userAgent)```  
-```getMobileHeaders()```  
-```getHttpHeaders()```  
-```setHttpHeaders(httpHeaders)```  
-```getCfHeaders()```  
-```setCfHeaders(cfHeaders)```  
+```getUserAgent()```
+```setUserAgent(userAgent)```
+```getMobileHeaders()```
+```getHttpHeaders()```
+```setHttpHeaders(httpHeaders)```
+```getCfHeaders()```
+```setCfHeaders(cfHeaders)```
 
 ## Changelog
+
+### 1.0.1 (06.06.16)
+
+* Updated Mobile_Detect to latest version
+* Added Craft 2.5 features and schema version
 
 ### 1.0 (09.21.15)
 _Initial release_
