@@ -1,4 +1,4 @@
-# Detect plugin v. 1.0.1 for Craft CMS
+# Detect plugin v. 1.0.2 for Craft CMS
 
 
 **_Detect_ is a fairly complete wrapper for the [Mobile_Detect](http://mobiledetect.net/) library by [@serbanghita](https://github.com/serbanghita).**
@@ -82,6 +82,10 @@ setCfHeaders(cfHeaders)
 ```
 
 ## Changelog
+
+### 1.0.2 (10.05.17)
+
+* Updated Mobile_Detect to latest version
 
 ### 1.0.1 (06.06.16)
 

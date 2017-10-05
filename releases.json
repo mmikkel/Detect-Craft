@@ -1,4 +1,12 @@
 [
+ {
+    "version": "1.0.2",
+    "downloadUrl": "https://github.com/mmikkel/Detect-Craft/archive/master.zip",
+    "date": "2017-10-05T10:00:00-08:00",
+    "notes": [
+      "[Improved] Updated Mobile_Detect to latest version",
+    ]
+  },
   {
     "version": "1.0.1",
     "downloadUrl": "https://github.com/mmikkel/Detect-Craft/archive/master.zip",
